@@ -101,7 +101,7 @@ const Home = ({ frontmatter }) => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                        <Image src={slide} alt="" width={400} height={300} />
                       </SwiperSlide>
                     ))}
                   </Swiper>

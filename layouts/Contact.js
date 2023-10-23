@@ -12,50 +12,15 @@ const Contact = ({ data }) => {
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
-            <form
-              className="contact-form"
-              method="POST"
-              action={contact_form_action}
-            >
-              <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="name"
-                  type="text"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="email"
-                  type="email"
-                  placeholder="Your email"
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="subject"
-                  type="text"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div className="mb-3">
-                <textarea
-                  className="form-textarea w-full rounded-md"
-                  rows="7"
-                  placeholder="Your message"
-                />
-              </div>
-              <button type="submit" className="btn btn-primary">
-                Send Now
-              </button>
-            </form>
-          </div>
+          <iframe
+          width="540"
+          height="305"
+          src="https://0aadf916.sibforms.com/serve/MUIFAHraIyOX-ZFLffyQavvPqIXCgSFDtIGcs8vb2TE2tuPb6jt809VmMVV1e2aJ2o7Hdgt7-T6bzAhkOjltaHo0iwFKjFNbFFhpSNOK5WVdW6nh8mH-iX6i7_7O7CpXMZ5gXRGYB4N_wIGYt0yTHWKGzdpC6w45fwlMJBMckNaAEBAbaWjqXlzT8OIHB_0O8A4-vAOJscmYUIEi"
+          frameBorder={0}
+          allowFullScreen
+          style={{ display: 'block', height: '100%', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%' }}
+          ></iframe>
+      </div>
           <div className="content col-12 md:col-6 lg:col-5">
             {markdownify(info.title, "h4")}
             {markdownify(info.description, "p", "mt-4")}

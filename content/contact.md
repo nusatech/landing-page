@@ -2,11 +2,11 @@
 title: "Contact Us"
 layout: "contact"
 draft: false
-info: 
+info:
   title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
-  contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+  description: Contact us to discuss your digital product, and you'll discover a partner who's passionate about your success. Our experienced team, cloud expertise, and commitment to innovation ensure your project's success from concept to completion. Let's bring your vision to the digital world. Contact Nusatech today, and let's make it happen.
+  contacts:
+    - "Phone: +62 87777 33 1908"
+    - "Mail: [admin@nusatechsolution.com](mailto:admin@nusatechsolution.com)"
+    - "Address: Jl. Kunir No.53, Tangerang Selatan, Banten, ID"
 ---
